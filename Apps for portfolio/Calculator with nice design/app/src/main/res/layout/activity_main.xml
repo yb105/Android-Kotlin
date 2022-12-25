@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f2f6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTwoNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:text=""
+
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txtSolution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="30dp"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvClear"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesignblack"
+            android:text="C"
+            android:textSize="21dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvempty"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/tvClear"
+            android:background="@drawable/btndesignblack"
+            android:drawableTop="@drawable/ic_baseline_backspace_24"
+            android:paddingTop="24dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvpercentage"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/tvempty"
+            android:background="@drawable/btndesignblack"
+            android:text="%"
+            android:layout_marginLeft="15dp"
+            android:textSize="21dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvdivide"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/tvpercentage"
+            android:background="@drawable/btndesignorange"
+            android:layout_marginLeft="15dp"
+            android:text="÷"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvseven"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvClear"
+            android:layout_marginTop="10dp"
+            android:text="7"
+            android:textSize="21dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tveight"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvempty"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvseven"
+            android:text="8"
+            android:layout_marginLeft="15dp"
+            android:textSize="21dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvnine"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvpercentage"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tveight"
+            android:text="9"
+            android:layout_marginLeft="15dp"
+            android:textSize="21dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvmultiplication"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesignorange"
+            android:layout_below="@+id/tvdivide"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvnine"
+            android:text="x"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:textSize="25dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvfour"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvseven"
+            android:layout_marginTop="10dp"
+            android:text="4"
+            android:textSize="21dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvfive"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tveight"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvfour"
+            android:text="5"
+            android:layout_marginLeft="15dp"
+            android:textSize="21dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvsix"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvnine"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvfive"
+            android:text="6"
+            android:layout_marginLeft="15dp"
+            android:textSize="21dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvminus"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesignorange"
+            android:layout_below="@+id/tvmultiplication"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvsix"
+            android:text="−"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:textSize="40dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvone"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvfour"
+            android:layout_marginTop="10dp"
+            android:text="1"
+            android:textSize="21dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvtwo"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvfive"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvone"
+            android:text="2"
+            android:layout_marginLeft="15dp"
+            android:textSize="21dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvthree"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvsix"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvtwo"
+            android:text="3"
+            android:layout_marginLeft="15dp"
+            android:textSize="21dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvplus"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesignorange"
+            android:layout_below="@+id/tvminus"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvthree"
+            android:text="+"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:textSize="35dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="155dp"
+            android:id="@+id/tvzero"
+            android:layout_height="70dp"
+            android:background="@drawable/btnzerodesign"
+            android:layout_below="@+id/tvone"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:layout_marginLeft="0dp"
+            android:textSize="21dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvdot"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesign1"
+            android:layout_below="@+id/tvthree"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvzero"
+            android:text="."
+            android:layout_marginLeft="18dp"
+            android:textSize="25dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:id="@+id/tvequal"
+            android:layout_height="70dp"
+            android:background="@drawable/btndesignorange"
+            android:layout_below="@+id/tvplus"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tvdot"
+            android:text="="
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:textSize="40dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btm_nav_graph"
+    app:startDestination="@id/btm_home_2">
+
+    <fragment
+        android:id="@+id/btm_home_2"
+        android:name="com.example.task.btm_home_2"
+        android:label="fragment_btm_home_2"
+        tools:layout="@layout/fragment_btm_home_2" />
+    <fragment
+        android:id="@+id/btm_setting_2"
+        android:name="com.example.task.btm_setting_2"
+        android:label="fragment_btm_setting_2"
+        tools:layout="@layout/fragment_btm_setting_2" />
+    <fragment
+        android:id="@+id/btm_profile_2"
+        android:name="com.example.task.btm_profile_2"
+        android:label="fragment_btm_profile_2"
+        tools:layout="@layout/fragment_btm_profile_2" />
+</navigation>

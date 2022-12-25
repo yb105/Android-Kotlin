@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="#00BCD4"
+            android:alpha="0.2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+        />
+    </FrameLayout>
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:layout_width="250dp"
+     android:layout_gravity="center"
+     android:layout_height="wrap_content"
+     android:text="Android"
+     android:layout_marginTop="20dp"
+     android:id="@+id/btnA"
+     android:background="@drawable/btn"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="26dp"
+        android:entries="@array/mylang"
+        android:id="@+id/spdata"/>
+
+
+
+
+
+</LinearLayout>
