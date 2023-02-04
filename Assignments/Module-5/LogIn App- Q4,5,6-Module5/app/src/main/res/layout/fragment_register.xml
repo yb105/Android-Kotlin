@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgnew"
+    tools:context=".RegisterFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="50dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtemail"
+        android:background="@drawable/edtdesign"
+        android:elevation="3dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:padding="20dp"
+        android:hint="Email Address"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtuser"
+        android:background="@drawable/edtdesign"
+        android:elevation="3dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:padding="20dp"
+        android:hint="User Name"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtdesign"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/txtPass"
+        android:elevation="3dp"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center_horizontal"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btndesign"
+        android:text="Register"
+        android:id="@+id/btnRegister"
+        android:textColor="#FFFF"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Registered ?"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/already"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#fff"
+            android:layout_toRightOf="@+id/already"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/txtlogin"
+            />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

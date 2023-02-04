@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Project"
+        android:textColor="@color/purple_500"
+        android:textAlignment="center"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Name"
+        android:id="@+id/edTitle"
+        android:padding = "15dp"
+        android:background="@drawable/eddesign"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Detail"
+        android:id="@+id/edDescription"
+        android:padding = "15dp"
+        android:background="@drawable/eddesign"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Project"
+        android:layout_margin="10dp"
+        android:padding = "15dp"
+        android:id="@+id/btnAddSticky"/>
+
+
+
+</LinearLayout>
+
