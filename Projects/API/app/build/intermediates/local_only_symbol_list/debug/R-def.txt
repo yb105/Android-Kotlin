@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnAdd
+id btnsubmit
+id btnsubmitupdate
+id edNAme
+id edSubject
+id ed_name
+id ed_update_city
+id ed_update_name
+id edcity
+id revView
+id tv_city
+id tv_name
+id txtData
+layout activity_all_student
+layout activity_get_specific_data
+layout activity_main
+layout activity_update_student
+layout rev_layout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.API
+xml backup_rules
+xml data_extraction_rules

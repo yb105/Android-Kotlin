@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Profile Photo"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/txtchange"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/eddesign"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtprofilename"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Birthdate"
+        android:textColor="@color/black"
+        android:background="@drawable/eddesign"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtBirthday"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Mobile Number"
+        android:textColor="@color/black"
+        android:background="@drawable/eddesign"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txtmobilenumber"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:padding="15dp"
+        android:id="@+id/btneditprofile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+
+
+
+</LinearLayout>

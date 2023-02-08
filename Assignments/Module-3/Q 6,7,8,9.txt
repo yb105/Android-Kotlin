@@ -1,0 +1,29 @@
+----------------What is R.java file------------------------------------
+
+Android R.java is an auto-generated file by aapt (Android Asset Packaging Tool)
+ that contains resource IDs for all the resources of res/ directory.
+----------------------------------------------------------------------------------
+
+--------------What is activity and activity lifecycle-------------------------
+
+Android Activity Lifecycle is controlled by 7 methods of android.app.Activity class. The android Activity is the
+ subclass of ContextThemeWrapper class.
+
+An activity is the single screen in android. It is like window or frame of Java.
+
+By the help of activity, you can place all your UI components or widgets in a single screen.
+
+The 7 lifecycle method of Activity describes how activity will behave at different states.
+-------------------------------------------------------------------------------------------------------
+
+----------------What is fragment and fragment lifecycle---------------------
+
+Android Fragment is the part of activity, it is also known as sub-activity. There can be more than one
+ fragment in an activity. Fragments represent multiple screen inside one activity.
+
+Android fragment lifecycle is affected by activity lifecycle because fragments are included in activity.
+
+Each fragment has its own life cycle methods that is affected by activity life cycle because fragments are embedded in activity.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
