@@ -9,7 +9,6 @@ import android.database.sqlite.SQLiteOpenHelper
 
 class DataBaseHandler (var context: Context):SQLiteOpenHelper(context,DATABASE_NAME,null,VERSION){
     override fun onCreate(db: SQLiteDatabase?) {
-
         var create_table = "CREATE TABLE $TABLE_NAME($ID INTEGER PRIMARY KEY AUTOINCREMENT, $TITLE VARCHAR(20), $DESCRIPTION VARCHAR(100) )"
         db?.execSQL(create_table)
     }

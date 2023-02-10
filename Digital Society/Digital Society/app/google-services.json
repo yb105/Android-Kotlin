@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "777561621960",
+    "project_id": "digital-society-34a75",
+    "storage_bucket": "digital-society-34a75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777561621960:android:5d8096fc0a07d39935acfd",
+        "android_client_info": {
+          "package_name": "com.example.digitalsociety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777561621960-ovaq0j1vte474cu72rn4o85g2lcj0pc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvxIfAUgolkWu4rf6FnPXcZ-QeuNfwBRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777561621960-ovaq0j1vte474cu72rn4o85g2lcj0pc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

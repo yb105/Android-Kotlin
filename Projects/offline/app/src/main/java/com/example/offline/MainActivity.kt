@@ -26,9 +26,6 @@ class MainActivity : AppCompatActivity() {
          rev = findViewById(R.id.revView)
         arrayList = ArrayList()
 
-
-
-
         fab.setOnClickListener{
 
           dialog()

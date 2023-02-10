@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Complaint"
+            android:textStyle="bold"
+            android:textColor="@color/MainColor"
+            android:textAlignment="center"
+            android:textSize="26sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Complaint Title"
+            android:id="@+id/edcomplainttitle"
+            android:padding = "15dp"
+            android:background="@drawable/editextborder"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Complaint"
+            android:id="@+id/edcomplain"
+            android:padding = "15dp"
+            android:background="@drawable/editextborder"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD Complaint"
+            android:layout_margin="10dp"
+            android:padding = "15dp"
+            android:id="@+id/btncomplaint"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

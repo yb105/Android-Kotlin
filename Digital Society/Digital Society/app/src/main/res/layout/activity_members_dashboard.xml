@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChairmanDashboard">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/MainColor">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_memberDashboard"
+            android:layout_width="90dp"
+            android:scaleType="centerCrop"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtmembername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="16dp"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintStart_toEndOf="@id/profile_memberDashboard"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtchairmanpostion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="16dp"
+            android:text="Postion"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@id/profile_memberDashboard"
+            app:layout_constraintTop_toBottomOf="@+id/txtmembername" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_member_Logout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:src="@drawable/baseline_power_settings_new_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentchairmandashboard"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/navmemberdashboard" />
+
+
+
+
+</LinearLayout>

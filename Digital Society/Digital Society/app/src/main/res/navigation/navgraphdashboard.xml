@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraphdashboard"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.digitalsociety.Fragments.HomeFragment"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" >
+        <action
+            android:id="@+id/action_homeFragment_to_memberRequest"
+            app:destination="@id/memberRequest" />
+        <action
+            android:id="@+id/action_homeFragment_to_addEvent"
+            app:destination="@id/addEvent" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addNotice"
+            app:destination="@id/addNotice" />
+        <action
+            android:id="@+id/action_homeFragment_to_viewAllMembers"
+            app:destination="@id/viewAllMembers" />
+        <action
+            android:id="@+id/action_homeFragment_to_viewComplaints"
+            app:destination="@id/viewComplaints" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.digitalsociety.Fragments.ProfileFragment"
+        android:label="fragment_profile2"
+        tools:layout="@layout/fragment_profile2" >
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEvent"
+        android:name="com.example.digitalsociety.Fragments.AddEvent"
+        android:label="fragment_add_event"
+        tools:layout="@layout/fragment_add_event" >
+        <action
+            android:id="@+id/action_addEvent_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNotice"
+        android:name="com.example.digitalsociety.Fragments.AddNotice"
+        android:label="fragment_add_notice"
+        tools:layout="@layout/fragment_add_notice" >
+        <action
+            android:id="@+id/action_addNotice_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/memberRequest"
+        android:name="com.example.digitalsociety.Fragments.MemberRequest"
+        android:label="fragment_member_request"
+        tools:layout="@layout/fragment_member_request" >
+        <action
+            android:id="@+id/action_memberRequest_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewAllMembers"
+        android:name="com.example.digitalsociety.Fragments.ViewAllMembers"
+        android:label="fragment_view_all_members"
+        tools:layout="@layout/fragment_view_all_members" >
+        <action
+            android:id="@+id/action_viewAllMembers_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewComplaints"
+        android:name="com.example.digitalsociety.Fragments.ViewComplaints"
+        android:label="fragment_view_complaints"
+        tools:layout="@layout/fragment_view_complaints" >
+        <action
+            android:id="@+id/action_viewComplaints_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

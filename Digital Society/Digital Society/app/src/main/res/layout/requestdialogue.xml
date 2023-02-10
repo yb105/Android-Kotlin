@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/txtrequestDialogueUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone :"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/txtrequestDialoguePhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="House :"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/txtrequestDialogueHouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="house"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Postion :"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/txtrequestDialoguePosition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Position"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_margin="10dp"
+                android:id="@+id/btnRequestDialogueDelete"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Approve"
+                android:layout_margin="10dp"
+                android:id="@+id/btnRequestDialogueApprove"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
