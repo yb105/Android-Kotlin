@@ -14,40 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75eb4693-9f6d-457b-8934-b9e0db463253" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/DataBaseHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/HomeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/LoginFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/MyAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/MyAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/MyModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/MyModel2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/MyModel3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/ProfileActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/ProfileActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/RegisterFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/java/com/example/loginapp_sqlite/RegisterFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/res/layout/dot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/res/layout/dot.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/res/layout/editprofilelayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/LogIn App- Q4,5,6-Module5/app/src/main/res/layout/editprofilelayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/Sticky Notes App/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/Sticky Notes App/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/Sticky Notes App/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/Sticky Notes App/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/api/ApiInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/api/ApiInterface.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/app/src/main/java/com/example/firebase/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/app/src/main/java/com/example/firebase/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Firebase/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuizApp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizApp/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuizApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/TaskManagement/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/TaskManagement/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/TaskManagement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/TaskManagement/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sharedpreference/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sharedpreference/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sharedpreference/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sharedpreference/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +55,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Downloads/api&quot;
   }
 }</component>
   <component name="RecentsManager">
