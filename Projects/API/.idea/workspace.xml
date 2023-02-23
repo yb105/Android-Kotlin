@@ -14,11 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75eb4693-9f6d-457b-8934-b9e0db463253" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/TaskManagement/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/TaskManagement/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/Module-5/TaskManagement/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/Module-5/TaskManagement/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sharedpreference/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sharedpreference/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sharedpreference/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sharedpreference/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
